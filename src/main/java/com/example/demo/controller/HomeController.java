@@ -12,4 +12,11 @@ ModelAndView acceuil()
 ModelAndView page=new ModelAndView("index.html");
 return page;
 }
+@GetMapping("types")
+ModelAndView types()
+{
+ModelAndView mv=new ModelAndView("types.html");
+return mv;
+
+}
 }
