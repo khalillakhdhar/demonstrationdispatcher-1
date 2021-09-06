@@ -19,4 +19,10 @@ ModelAndView mv=new ModelAndView("types.html");
 return mv;
 
 }
+@GetMapping("controllers")
+String getControl()
+{
+return	"l annotation Controller signifie Nous pouvons annoter les contrôleurs classique sous forme de composants";
+
+}
 }
